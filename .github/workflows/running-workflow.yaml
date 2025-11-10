@@ -1,0 +1,12 @@
+name: Baseline Coverage
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-baseline:
+    uses: hossainks/shared-ci/.github/workflows/mail-coverage.yml@main
+    # secrets:
+    #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
