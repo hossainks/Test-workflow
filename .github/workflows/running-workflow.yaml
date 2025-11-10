@@ -7,10 +7,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-baseline:
-    uses: hossainks/shared-ci/.github/workflows/main-coverage.yaml@main
-    # secrets:
-    #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  # run-baseline:
+  #   uses: hossainks/shared-ci/.github/workflows/main-coverage.yaml@main
+  # secrets:
+  #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   run-delta:
     needs: run-baseline
     uses: hossainks/shared-ci/.github/workflows/delta-check.yaml@main
