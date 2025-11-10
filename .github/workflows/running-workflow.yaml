@@ -12,4 +12,5 @@ jobs:
     # secrets:
     #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   run-delta:
+    needs: run-baseline
     uses: hossainks/shared-ci/.github/workflows/delta-check.yaml@main
