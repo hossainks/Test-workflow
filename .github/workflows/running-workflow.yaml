@@ -11,3 +11,5 @@ jobs:
     uses: hossainks/shared-ci/.github/workflows/main-coverage.yaml@main
     # secrets:
     #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  run-delta:
+    uses: hossainks/shared-ci/.github/workflows/delta-check.yaml@main
