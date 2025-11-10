@@ -7,6 +7,6 @@ on:
 
 jobs:
   run-baseline:
-    uses: hossainks/shared-ci/.github/workflows/mail-coverage.yml@main
+    uses: hossainks/shared-ci/.github/workflows/mail-coverage.yaml@main
     # secrets:
     #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
