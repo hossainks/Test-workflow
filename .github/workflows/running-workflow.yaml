@@ -1,4 +1,4 @@
-name: Baseline Coverage
+name: Generate Delta Coverage
 
 on:
   push:
